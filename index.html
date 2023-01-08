@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="index.css ">
+</head>
+
+<body>
+
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="IMG_20221105_220646_750.jpg" alt="">
+                    <h2>IYANU- <span class="danger">TOMIWA</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close </span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="">
+                    <span class="material-icons-sharp"> grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="" class="active">
+                    <span class="material-icons-sharp">person</span>
+                    <h3>Customer</h3>
+                </a>
+                <a href="">
+                    <span class="material-icons-sharp">receipt_long</span>
+                    <h3>Orders</h3>
+                </a>
+                <a href="">
+                    <span class="material-icons-sharp">insights</span>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="">
+                    <span class="material-icons-sharp"> mail</span>
+                    <h3>Messages</h3>
+                    <span class="message-count">14</span>
+                </a>
+                <a href="">
+                    <span class="material-icons-sharp">inventory</span>
+                    <h3>Products</h3>
+                </a>
+                <a href="">
+                    <span class="material-icons-sharp">report</span>
+                    <h3>Reports</h3>
+                </a>
+
+                <a href="">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="">
+                    <span class="material-icons-sharp">add</span>
+                    <h3>Add Products</h3>
+                </a>
+                <a href="">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Logout</h3>
+            </div>
+        </aside>
+
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-icons-sharp">analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total sales</h3>
+                            <h1>$25,002 </h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                               <circle cx='38' cy='38' r='36'></circle> 
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!-- end of sales -->
+                <div class="expenses">
+                    <span class="material-icons-sharp">bar_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total expenses</h3>
+                            <h1>$10,100 </h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                               <circle cx='38' cy='38' r='36'></circle> 
+                            </svg>
+                            <div class="number">
+                                <p>65%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!-- end of enspensis -->
+                <div class="income">
+                    <span class="material-icons-sharp">stacked_line_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total income</h3>
+                            <h1>$5,356 </h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                               <circle cx='38' cy='38' r='36'></circle> 
+                            </svg>
+                            <div class="number">
+                                <p>44%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!-- end of income -->
+
+            </div>
+            <div class="book">
+                <h2>BOOKS PURCHASE</h2>
+                <div class="books-purchase">
+                    <div class="img">
+                        <img src="No 1.jpg" alt="">
+                        <p>$ 200</p>
+                    </div>
+                    <div class="img">
+                        <img src="No2.jpg" alt="">
+                        <p>$ 100</p>
+                    </div>
+                    <div class="img">
+                        <img src="No3.jpg" alt="">
+                        <p>$ 150</p>
+                    </div>
+                </div>
+            </div>
+ vb
+        </main>
+        <!-- end of main -->
+
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp"> light_mode</span>
+                    <span class="material-icons-sharp">dark_mode </span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey <b>David</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

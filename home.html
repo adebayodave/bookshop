@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <title>Online Bookshop</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            background: #f6f6f9;
+            height: 100vh;
+            width: 100vw;
+        }
+        
+        header {
+            display: flex;
+        }
+        
+        header h2 {
+            color: blue;
+            padding: 10px;
+            margin-left: 10px;
+        }
+        
+        header h2 .danger {
+            color: red;
+        }
+        
+        nav {
+            text-align: end;
+            margin-left: 30%;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: right;
+            justify-content: end;
+            color: rgba(206, 210, 221, 0.89);
+            text-align: center;
+        }
+        
+        nav li {
+            display: inline-block;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: rgba(128, 128, 216, 0.95);
+            width: 100px;
+            display: block;
+            margin-top: 30px;
+            padding: 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 20px;
+        }
+        
+        header nav ul .login {
+            margin-left: 70px;
+        }
+        
+        header nav ul .login {
+            color: #d60718;
+        }
+        
+        nav a:hover {
+            text-shadow: #f6f6f9;
+            background: white;
+        }
+        
+        h1 {
+            text-align: center;
+            justify-content: center;
+            font-style: italic;
+            font-weight: bold;
+            color: steelblue;
+        }
+        
+        .main {
+            width: 96vw;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+            border-radius: 10px;
+        }
+        
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            padding: 10px;
+            height: 50%;
+        }
+        
+        .lerft-aside {
+            padding: 10px;
+            width: 60%;
+            background: #dfe0e6;
+            border-radius: 20px;
+        }
+        
+        .main-content .lerft-aside h2 {
+            color: rgba(43, 75, 43, 0.89);
+            font-weight: bold;
+            font-style: italic;
+        }
+        
+        .main-content .lerft-aside .books-purchase {
+            display: flex;
+            flex-direction: row;
+            padding: 15px;
+            margin-left: 10px;
+            margin-top: 15px;
+            gap: 4rem;
+            border-radius: 15px;
+            /* display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 40px;
+    width: 90vw;
+    height: 15vh; */
+        }
+        
+        .main-content .lerft-aside p {
+            color: #363949;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            font-style: italic;
+            font-weight: bold;
+            margin-left: 0px;
+            margin-bottom: 0px;
+        }
+        
+        .right-aside {
+            background: #aeb7e0;
+            width: 20%;
+            border-radius: 20px;
+            margin-right: 20px;
+        }
+        
+        .right-aside .authors h2 {
+            text-align: center;
+            justify-content: center;
+            margin-top: 10px;
+            color: rgb(6, 175, 175);
+            font-style: italic;
+        }
+        
+        .right-aside .authors {
+            /* text-align: center; */
+            justify-content: center;
+            gap: 2rem;
+            color: rgba(43, 75, 43, 0.80);
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>IYANU- <span class="danger">TOMIWA</span></h2>
+        <nav>
+            <ul class="nav-menu">
+                <li>
+                    <a href="home.html">home</a>
+                </li>
+                <li>
+                    <a href="about.html">about</a>
+                </li>
+                <li>
+                    <a href="contactme.html">contact</a>
+                </li>
+                <li>
+                    <a href="service.html">service</a>
+                </li>
+                <li class="login">
+                    <a href="login.html" id="button-btn">login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Welcome To Online Bookshop Store</h1>
+    <img class="main" src="Main.jpg" alt="" />
+
+    <div class="main-content">
+        <div class="lerft-aside">
+            <h2>Best Sellers</h2>
+            <div class="books-purchase">
+                <div class="img">
+                    <img src="N05.jpg" alt="" />
+                    <p>$ 13</p>
+                </div>
+                <div class="img">
+                    <img src="NO6.jpg" alt="" />
+                    <p>$ 10</p>
+                </div>
+                <div class="img">
+                    <img src="No10.jpg" alt="" />
+                    <p>$ 8</p>
+                </div>
+                <div class="img">
+                    <img src="No7.jpg" alt="" />
+                    <p>$ 11</p>
+                </div>
+            </div>
+            <p>
+                this are the best selling books which has sold over 1milloins copy in the pass few years
+            </p>
+        </div>
+
+        <div class="right-aside">
+            <div class="authors">
+                <h2>Authors Name</h2>
+                <ul>
+                    <li>
+                        Durotola Iyanu-Tomiwa
+                    </li>
+                    <li>
+                        Kolawole Blessing Funmilayo
+                    </li>
+                    <li>
+                        David Adebayo Durotola
+                    </li>
+                    <li>
+                        Durotola Samuel Oluwasuen
+                    </li>
+                    <li>
+                        Fayomi Foluke Favour
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const button = document.querySelectorById("button-btn");
+        const navmenu = document.querySelector("nav-menu");
+
+
+
+
+        button.addEventListener("click", () => {
+            navmenu.classList.toggle("active");
+            button.classList.toggle("active");
+
+        })
+    </script>
+</body>
+
+</html>

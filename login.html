@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <title>login</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            background: #f6f6f9;
+            height: 100vh;
+            width: 100vw;
+        }
+        
+        header {
+            display: flex;
+        }
+        
+        header h2 {
+            color: blue;
+            padding: 10px;
+            margin-left: 10px;
+        }
+        
+        header h2 .danger {
+            color: red;
+        }
+        
+        nav {
+            text-align: end;
+            margin-left: 30%;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: right;
+            justify-content: end;
+            color: rgba(206, 210, 221, 0.89);
+            text-align: center;
+        }
+        
+        nav li {
+            display: inline-block;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: rgba(128, 128, 216, 0.95);
+            width: 100px;
+            display: block;
+            margin-top: 30px;
+            padding: 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 20px;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            background: #f6f6f9;
+            height: 100vh;
+            width: 100vw;
+        }
+        
+        header {
+            display: flex;
+        }
+        
+        header h2 {
+            color: blue;
+            padding: 10px;
+            margin-left: 10px;
+        }
+        
+        header h2 .danger {
+            color: red;
+        }
+        
+        nav {
+            text-align: end;
+            margin-left: 40%;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: right;
+            justify-content: end;
+            color: rgba(206, 210, 221, 0.89);
+            text-align: center;
+        }
+        
+        nav li {
+            display: inline-block;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: rgba(128, 128, 216, 0.95);
+            width: 100px;
+            display: block;
+            margin-top: 30px;
+            padding: 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 20px;
+        }
+        
+        .header {
+            width: 350px;
+            margin: 10%;
+            padding: 30px;
+            background-color: brown;
+            box-shadow: 0 0 17px rgb(25, 24, 24);
+            border-radius: 20px
+        }
+        
+        .main {
+            background: steelblue;
+            top: 50%;
+            left: 50%;
+            transform: translate(120%, 70%);
+            width: 400px;
+            border-radius: 10px;
+        }
+        
+        .main h2 {
+            text-align: center;
+            color: whitesmoke;
+            margin-top: 20px;
+        }
+        
+        .main form {
+            align-items: center;
+            text-align: center;
+        }
+        
+        .main h4 {
+            align-content: center;
+            justify-content: center;
+        }
+        
+        .main h4 a {
+            color: rgb(221, 184, 184);
+        }
+        
+        .main a {
+            display: flex;
+            color: rgb(221, 184, 184);
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>IYANU- <span class="danger">TOMIWA</span></h2>
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html">home</a>
+                </li>
+                <li>
+                    <a href="about.html">about</a>
+                </li>
+                <li>
+                    <a href="contactme.html">contact</a>
+                </li>
+                <li>
+                    <a href="service.html">service</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="main">
+        <h2>LOGIN</h2>
+        <form id="form">
+            <table>
+                <tr>
+                    <td>
+                        email/username :
+                    </td>
+                    <td>
+                        <input type="Username/Email" placeholder="Username/Email" id="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password :
+                    </td>
+                    <td>
+                        <input type="password" placeholder="your password" id="password">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <h4>
+            <a href="index.html">Login</a>
+        </h4>
+        <a href="sign up">sign up here</a>
+        <a href="forget password">forget password click here</a>
+    </div>
+
+    <script>
+        const email = document.getElementById("email");
+        const password = document.getElementById("email");
+        const form = document.getElementById("form");
+
+
+
+        form.addEventListener("login", () => {
+            let messages = []
+            if (name.value === "" || name.value == null) {
+                messages.push("Name is required")
+            }
+
+            if (password.value.length <= 6) {
+                messages.push("password must be longer than 6 characters")
+            }
+
+            if (password.value.length >= 9) {
+                messages.push("password must be less  than 9 characters")
+            }
+
+
+        })
+    </script>
+</body>
+
+</html>
