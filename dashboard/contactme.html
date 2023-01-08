@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            background: #f6f6f9;
+            height: 100vh;
+            width: 100vw;
+        }
+        
+        header {
+            display: flex;
+        }
+        
+        header h2 {
+            color: blue;
+            padding: 10px;
+            margin-left: 10px;
+        }
+        
+        header h2 .danger {
+            color: red;
+        }
+        
+        nav {
+            text-align: end;
+            margin-left: 30%;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: right;
+            justify-content: end;
+            color: rgba(206, 210, 221, 0.89);
+            text-align: center;
+        }
+        
+        nav li {
+            display: inline-block;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: rgba(128, 128, 216, 0.95);
+            width: 100px;
+            display: block;
+            margin-top: 30px;
+            padding: 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 20px;
+        }
+        
+        header nav ul .login {
+            margin-left: 70px;
+        }
+        
+        header nav ul .login {
+            color: #d60718;
+        }
+        
+        nav a:hover {
+            text-shadow: #f6f6f9;
+            background: white;
+        }
+        
+        h3 {
+            text-align: center;
+            text-transform: uppercase;
+            color: rgb(48, 42, 42);
+        }
+        
+        .social {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5%;
+        }
+        
+        .social .img {
+            gap: 2rem;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .social .img img {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>IYANU- <span class="danger">TOMIWA</span></h2>
+        <nav>
+            <ul class="nav-menu">
+                <li>
+                    <a href="home.html">home</a>
+                </li>
+                <li>
+                    <a href="about.html">about</a>
+                </li>
+                <li>
+                    <a href="contactme.html">contact</a>
+                </li>
+                <li>
+                    <a href="service.html">service</a>
+                </li>
+                <li class="login">
+                    <a href="login.html" id="button-btn">login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h3>our social media handle as are follow</h3>
+
+    <div class="social">
+        <div class="img">
+            <img src="instagram.jpg" alt="">
+            <p>follow here to our instagram page
+                <a href="">link</a>
+            </p>
+        </div>
+        <div class="img">
+            <img src="facebook.jpg" alt="">
+            <p>follow here to our facebook page
+                <a href="">link</a>
+            </p>
+        </div>
+        <div class="img">
+            <img src="twitter.png" alt="">
+            <p>follow here to our twitter page
+                <a href="">link</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
